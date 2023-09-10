@@ -210,4 +210,20 @@ body{
     .form-box .login-register a:hover{text-decoration:underline;}
     .sign-up{
         color: black;
-    }
+    } .login-btn{
+        margin-left: 60px;
+        margin-top: 8px;
+        width:180px;
+        height: 43px;
+        background-color:black;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        color:white;
+       }
+     
+       .google-img{
+        margin-left:7px;
+        width:18px;
+       }
