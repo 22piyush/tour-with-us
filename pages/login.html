@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form Page</title>
+        <style>
+          .body{background-image: url("Background-Image.jfif");
+                background-repeat:repeat;}
+          .login-box{width:400px; height: 400px;
+                    background-color: black; color:aliceblue;
+                    margin-left: auto; margin-right:auto;margin-top: 80px;
+                    border-radius: 15px;
+                    padding: 50px 25px;}     
+          .avatar{width: 80px; border-radius:50%;
+                  position: absolute; top:45px; margin-left: 150px; }  
+          h1{margin: 25px; padding: 0 0 18px;
+          text-align: center; font-size: 35px;}        
+          .login-box p{ margin: 0px; padding: 0px; font-style: bold;}
+          .login-box input{ width:300px; height: 23px;
+          margin-bottom: 20px; font-size: 15px; 
+          }
+          .login-box input[type="text"], input[type="password"]
+          { border:none;
+            border-bottom: 1px solid #fff;
+            background-color: transparent;
+            outline:none;
+            height: 40px;
+            color:white
+          }
+          .login-box input[type="submit"]
+          { background-color: brown;
+            height: 35px; width: 100px;
+            font-size: 20px; font-style: oblique;
+            margin-left: 100px; margin-top:-15px;
+            border-radius: 50px;
+          }
+          .login-box input[type="submit"]:hover
+           {cursor: pointer;
+            background-color: red;
+           }
+          .login-box a:hover
+          {color: red;
+          }
+ 
+        </style>
+        </head>
+    <body class="body">
+      <div class="login-box">
+        <img src="user-icon.jpeg" class="avatar">
+              <h1>Login Here</h1>
+          <form>
+            <p>User-Name/E-mail:-</p> 
+            <input type="text" name="" placeholder="Enter user-name or e-mail">
+            <p>Password:-</p> 
+            <input type="text" name="" placeholder="Enter Password"></br>
+          </br>
+            <input type="Submit" name="" value="Login"></br>
+          </br>
+            <a href="a">Forget Your Password?</a></br>
+            <a href="a">Sign up</a>
+
+          </form>
+        </div>
+        </body>
+</html>
