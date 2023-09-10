@@ -37,13 +37,7 @@ body {
     outline: none;
     border-radius: 40px;
     font-size: 16px;
-    margin-bottom: 20px;
-    
-}
-.email
-{  
-    display:inline-block;
-    width: 250px;
+    margin-bottom: 20px;  
 }
 .login input {
     background-color: #ffffff2e;
@@ -63,6 +57,12 @@ h1{
     color: white;
     margin-left: 50px;
     font-size:60px;
+}
+.radio-tag{
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+     padding-left: 20px ;
 }
 .disappear{
 	position: absolute;
@@ -144,4 +144,17 @@ h1{
 p{
     
     color: #c0b4b4;
+}
+.drop-down
+{
+    display: flex;
+    width: 85%;
+    background-color: #ffffff2e;
+    color:none;
+    font-family: poppins;
+    letter-spacing: 1px;
+    text-indent: 35px;
+    background-repeat: no-repeat;
+    background-color: none;
+    
 }
