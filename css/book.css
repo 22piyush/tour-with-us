@@ -1,0 +1,160 @@
+body {
+    background-image: url(../images/hill-station-3.jpg);
+    background-size: cover;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    border: 1px solid #72582c;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: auto;
+    border: none;
+    
+  
+}
+.form h4 {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.form .login {
+    display: flex;
+    width: 85%;
+}
+.login input, button {
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;  
+}
+.login input {
+    background-color: #ffffff2e;
+    color: #fff;
+    font-family: poppins;
+    letter-spacing: 1px;
+    text-indent: 35px;
+    background-repeat: no-repeat;
+    
+}
+.login input::placeholder {
+    font-size: 14px;
+    color: #c0b4b4;
+}
+
+h1{
+    color: white;
+    margin-left: 50px;
+    font-size:60px;
+}
+.radio-tag{
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+     padding-left: 20px ;
+}
+.disappear{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	text-align:left;
+	height: fit-content;
+	bottom: 0;
+	top: 0;
+    font-size: 60px;
+}
+.disappear span{
+	display: inline-block;
+	color: transparent;
+	text-shadow: 0px 0px 0px rgb(255, 255, 255);
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+.disappear span:nth-child(1)
+{
+	animation-name: disappearleft;
+}
+
+
+.disappear span:nth-child(2)
+{
+	animation-name: disappearleft;
+	animation-delay: .3s;
+}
+
+.disappear span:nth-child(2)
+{
+	animation-name: disappearleft;
+	animation-delay: .3s;
+}
+
+.disappear span:nth-child(3)
+{
+	animation-name: disappearleft;
+	animation-delay: .6s;
+}
+
+.disappear span:nth-child(4)
+{
+	animation-name: disappearleft;
+	animation-delay: .8s;
+}
+
+.disappear span:nth-child(5)
+{
+	animation-name: disappearleft;
+	animation-delay: 1s;
+}
+
+.disappear span:nth-child(6)
+{
+	animation-name: disappearleft;
+	animation-delay: 1.3s;
+}
+
+@keyframes disappearleft{
+	50%{
+		transform: skew(50deg) translateY(-200%);
+		text-shadow: 0px 0px 50px;
+		opacity: 0;
+	}
+}
+
+
+@keyframes disappearright{
+	50%{
+		transform: skew(-50deg) translateY(-200%);
+		text-shadow: 0px 0px 50px;
+		opacity: 0;
+	}
+}
+p{
+    
+    color: #c0b4b4;
+}
+.drop-down
+{
+    display: flex;
+    width: 85%;
+    background-color: #ffffff2e;
+    color:none;
+    font-family: poppins;
+    letter-spacing: 1px;
+    text-indent: 35px;
+    background-repeat: no-repeat;
+    background-color: none;
+    
+}
