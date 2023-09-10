@@ -14,26 +14,47 @@
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IN</span>
         <span>INDIA</span>
         
-
-
     </div>   
         
     <div class="form">
         <h4>BOOK YOUR TOUR</h4>
         <div class="login">
-            Full Name<input type="text" placeholder="Name">
-            <input type="password" placeholder="Password"><br>
+            <p>Full Name</p>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required><br>
         </div>
-        <button>book now</button>
-        <div class="suggests">
-            <div class="remember">
-                <input type="checkbox" checked>
-                <span>Remember Me</span>
-            </div>
-            <div class="forgot">
-                <span>Forgot Password?</span>
-            </div>
+        
+        <div class="login">
+            <p>Address</p>
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="Country" required><br>
         </div>
+
+        <div class="login ">
+            <p>Email Id</p>
+            <input type="email" placeholder="Email">
+            <p>Mobile No</p>
+            <input type="email" placeholder="Mobile No">
+        </div>
+
+        <div class="login radio-tag">
+            <input type="radio" name="travel"/><p>Flight</p>
+            <input type="radio" name="travel"/><p>Train</p>
+            <input type="radio" name="travel"/><p>Bus</p>
+        </div>
+
+        <div class="drop-down">
+            <p>Places</p>
+            <select>
+             <option>select your destination</option>
+             <option>Indian Temples</option>
+             <option>Hill Station</option>
+             <option>Historical Place</option>
+             <option>Western Desert</option>
+            </select>
+            
+        </div>
+        <input type="submit">
     </div>
 </body>
 </html>
