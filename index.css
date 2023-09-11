@@ -76,7 +76,6 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(./images/pic-1.png);
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
@@ -91,6 +90,9 @@ button{
 }
 .card3{
     background-image: url(./images/hilllls\ -\ Copy.jpg);
+}
+.card4{
+    background-image: url(./images/wild-life-card.jpg);
 }
 .card:hover{
     transform: translateY(-10px);
