@@ -1,3 +1,78 @@
+
+.header{
+    background-color:#260d0d;
+    opacity: 1;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+    padding:25px 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    position: relative;
+    font-size:20px;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.navbar a::after{
+    content:"";
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    width:100%;
+    height:2px;
+    background: white;
+    border-radius: 6px;
+    transform: translateY(9px);
+    opacity: 0;
+    transition: .3s;
+}
+.navbar a:hover::after{
+    transform: translateY(0);
+    opacity: 1;
+}
+.search-bar{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.search-bar input{
+    width: 100px;
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    outline: none;
+    color:white;
+}
+.search-bar input::placeholder{
+    color: white;
+}
+.search-bar button{
+    width: 38px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.search-bar button i{
+    font-size: 22px;
+    color: white;
+}
 .carousel-item{
     height: 54vh;
     min-height: 300px;
@@ -22,11 +97,12 @@
     padding-right: 100px;
 }
 .carousel-caption h5{
-   
+    margin-top:50px ;
     font-size: 50px;
     font-weight: 700;
 }
 .carousel-caption p{
+    margin-top: -90px ;
     font-size: 18px;
     top: 2rem;
 }
