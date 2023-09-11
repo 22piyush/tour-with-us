@@ -13,23 +13,34 @@
                 height: 100vh;
                 background-color: #33334d;
                 width: 200px;
-                position: fixed;
+                position:fixed;
                 top: 0;
-                left: 0;
+                padding-top: 75px;
+                right: 0;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+                background-image: url(./images/bbbbb.jpg);
+                opacity: 0.3;
+                background: black;
                 
             }
             .menu
             {
+                width: 100px;
+                text-align: center;
                 margin-top: 20px;
                 padding: 5px;
                 margin: 10px 5px;
                 border: none;
+                opacity: 1.0;
+                font-size: 18px;
+               
+
             }
             .sidebar-closed
             {
-                left: -180px;
+                left: -200px;
             }
         </style>
         
@@ -84,10 +95,10 @@
     <div>
         
         <div class="sidebar sidebar-closed" id="sidebar">
-            <button class="menu">home</button>
-            <button class="menu">about</button>
-            <button class="menu">contact</button>
-            <button class="menu">logout</button>
+            <button class="menu"><b>home</b></button>
+            <button class="menu"><b>about</b></button>
+            <button class="menu"><b>contact</b></button>
+            <button class="menu"><b>logout</b></button>
         </div>
         
             <script>

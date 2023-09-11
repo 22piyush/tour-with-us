@@ -30,6 +30,8 @@
     width: 30px;
     cursor: pointer;
     margin-left: 1450px;
+    z-index: 100;
+   
 }
 .row{
     display: flex;
