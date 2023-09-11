@@ -35,6 +35,12 @@
     z-index: 100;
     
 }
+.menu-icon:hover{
+    box-shadow: 0 0 10px 8px rgb(98, 96, 96);
+    border-radius: 50%;
+    
+}
+
 .row{
     display: flex;
   
@@ -68,6 +74,7 @@ button{
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+    
 }
 .card{
     width: 200px;
@@ -169,4 +176,49 @@ h2{
     text-decoration: none;
     font-size: 15px;
     color: #000;
+}
+
+.sidebar
+ {
+   height: 100vh;        
+    width: 200px;
+   position:fixed;
+    top: 0;
+    padding-top: 75px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(96, 108, 115);  
+                  
+  }
+  
+.menu
+{
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    margin-left: 45px;                
+    font-size: 20px;
+    background: none;
+    color:#ffffff;
+                   
+               
+ }
+.menu:hover
+{   
+    display: inline;
+    padding: 10px;
+    color: #999;
+    background: #999;
+    transition: 0.5sec;
+    box-shadow: 0 0 12px 6px rgb(42, 61, 72);
+    color: white;
+
+}
+            
+ .sidebar-closed
+{
+    left: -200px;
 }
