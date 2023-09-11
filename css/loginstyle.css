@@ -10,7 +10,7 @@ body{
 .background{
     width:100%;
     height:100vh;
-    background: url("../images/backg-img.jpg")no-repeat;
+    background: url("../images/hill-station-3.jpg")no-repeat;
     background-image: cover;
     background-position: center;
     filter: blur(10px);
@@ -29,7 +29,7 @@ body{
 }
 .navbar a{
     position: relative;
-    font-size: 15px;
+    font-size: 18px;
     color:white;
     text-decoration: none;
     font-weight: 500;
@@ -96,7 +96,7 @@ body{
     transform: translate(-50%,-50%);
     width:75%;
     height: 550px;
-    background: url('../images/backg-img.jpg') no-repeat;
+    background: url('../images/hill-station-3.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     border-radius:10px;
@@ -139,7 +139,7 @@ body{
         width: 103%;
         height:100%;
         background:transparent;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(5px);
         border-top-right-radius: 10px;
         border-bottom-left-radius: 10px;
         color: white;
@@ -215,10 +215,12 @@ body{
         color: wheat;
         text-decoration: none;
     }
-    .form-box .login-register a:hover{text-decoration:underline;}
-    .sign-up{
-        color: black;
-    } .login-btn{
+    .sign{
+        text-decoration: none;
+    }
+    .form-box .login-register a:hover{text-decoration:underline;
+    } 
+    .login-btn{
         margin-left: 60px;
         margin-top: 8px;
         width:180px;
@@ -230,7 +232,10 @@ body{
         font-size: 15px;
         color:white;
        }
-     
+     .login-btn a{
+        color: white;
+        text-decoration: none;
+     }
        .google-img{
         margin-left:7px;
         width:18px;
