@@ -163,3 +163,8 @@ h2{
      display: inline-block;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.explore-button{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
