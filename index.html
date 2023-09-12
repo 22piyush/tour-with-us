@@ -5,6 +5,50 @@
             first page
         </title>
         <link rel="stylesheet" href="index.css">
+
+
+        <style type="text/css">
+       
+            .sidebar
+            {
+                height: 100vh;
+                background-color: #020210;
+                width: 150px;
+                position:fixed;
+                top: 0;
+                padding-top: 75px;
+                right: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               gap: 15px;
+                
+                opacity: 0.7;
+                background-position: center;
+    background-size: cover;
+                color: #ffffff;
+                  
+            }
+            .menu
+            {
+              
+                text-align: center;
+               
+                padding: 5px;
+                         
+                font-size: 20px;
+                background: none;
+                color:#ffffff;
+               text-decoration: none;
+            }
+            
+            .sidebar-closed
+            {
+               display: none;
+            }
+        </style>
+        
+
 </head>
 <body>
     <div>
@@ -56,10 +100,19 @@
     <div>
         
         <div class="sidebar sidebar-closed" id="sidebar">
+
+            <a class="menu" href="./index.html">Home</a>
+            <a class="menu" href="./pages/aboutus.html">About</a>
+            <a class="menu" href="./pages/contactus.html">Contact</a>
+            <a  class="menu" href="./pages/login.html">Logout</a>
+
+          
+
             <button class="menu btn-nav"><a href="./index.html"><b>home</b></a></button>
             <button class="menu"><a href="./pages/aboutus.html"><b>about</b></a></button>
             <button class="menu"><a href="./pages/contactus.html"><b>contact</b></a></button>
             <button class="menu"><a href="./pages/login.html"><b>login</b></a></button>
+
         </div>
         
             <script>
