@@ -5,11 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/contactus.css">  
- 
+     
+    <style type="text/css">
+       
+        .sidebar
+        {
+            height: 100vh;
+            background-color: #33334d;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .menu
+        {
+            margin-top: 20px;
+            padding: 5px;
+            margin: 10px 5px;
+            border: none;
+        }
+        .sidebar-closed
+        {
+            left: -150px;
+        }
+        .menu-btn
+        {
+            margin-left: 500px;
+        }
+    </style>
 </head>
 <body>
        <section class="contact">
-        <img src="../images/menu-icon contact page.png" alt="" class="iii">
+        <img src="../images/menu-icon contact page.png" alt="" class="iii menu-icon" onclick="togglesidebae()">
         <div class="content">
             <h2>contact us</h2>
             <p>contact with us to in any query to our tour with us website ant suggestion if you have
