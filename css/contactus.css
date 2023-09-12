@@ -109,6 +109,23 @@ img{
 body{
     background-color: black;
 }
-
+@media (max-width : 991px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        height: 300px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 80px;
+    }
+    .contactForm{
+        margin-left: -700px;
+        margin-top: 100px;
+        width: 80%;
+       padding: 40px;
+    }
+}
 
 
