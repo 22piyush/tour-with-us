@@ -141,7 +141,6 @@ h5{
     float: left;
     margin-right: 20px;
 }
-
 /* media query large size */
 @media only screen and (max-width: px) {
   .row {
@@ -149,6 +148,7 @@ h5{
    margin-top: 50px;
   }
 }
+
 .histro-img{
     
     width: 300px;
@@ -194,4 +194,40 @@ h2{
     margin-top: 300px;
     margin-left:-1px ;
   }
+}
+.footer-contact{
+    background-color:  #24262b;
+    padding: 50px 0;
+    height:150px;
+}
+.contact-container{
+    max-width: 1170px;
+    margin:auto;
+    display: flex;
+    margin-left:180px ;
+    
+}
+.footer-col{
+    color: white;
+    font-size: 20px;
+
+}
+.contact-row{
+    line-height:27px;
+}
+.contact-footer-info{
+    text-decoration: none;
+    color: #bbbbbb;
+}
+.social-link{
+   line-height: 100px;
+    display: flex;
+}
+.footer-col h4{
+    line-height:50px;
+    text-underline-position: 5px;
+}
+.img-contact{
+    width:30px;
+    height:30px;
 }
