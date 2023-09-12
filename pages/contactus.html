@@ -5,11 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/contactus.css">  
- 
+     
+    <style type="text/css">
+       
+.sidebar
+{
+    height: 100vh;
+    background-color: #020210;
+    width: 150px;
+    position:fixed;
+    top: 0;
+    padding-top: 75px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    
+}
+.menu
+{
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    margin-left: 45px;                
+    font-size: 20px;
+    background: none;
+    color:#ffffff;
+    
+}
+.sidebar-closed
+{
+ left: -200px;
+}
+        
+    </style>
 </head>
 <body>
        <section class="contact">
-        <img src="../images/menu-icon contact page.png" alt="" class="iii">
+        <img src="../images/menu-icon contact page.png" alt="" class="iii menu-icon" onclick="togglesidebae()">
         <div class="content">
             <h2>contact us</h2>
             <p>contact with us to in any query to our tour with us website ant suggestion if you have
@@ -60,5 +99,34 @@
             </div>
         </div>
         </section>
+        <div class="sidebar sidebar-closed" id="sidebar">
+
+            <a class="menu" href="./index.html">Tours</a>
+            <a class="menu" href="./pages/aboutus.html">About</a>
+            <a class="menu" href="./pages/contactus.html">Contact</a>
+            <a  class="menu" href="./pages/login.html">Sign In</a>
+   
+        </div>
+        
+            <script>
+                
+                let isOpen = false;
+               function togglesidebae()
+               {
+                const sidebar = document.getElementById('sidebar');
+                if(isOpen)
+                {
+                    sidebar.classList.add('sidebar-closed');
+                    isOpen = false;
+                }
+                else
+                {
+                    sidebar.classList.remove('sidebar-closed');
+                    isOpen = true;
+                }
+             }
+               
+    
+            </script>  
 </body>
 </html>
