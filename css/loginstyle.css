@@ -207,6 +207,11 @@ body{
         font-size: 15px;
         color: black;
     }
+    .btn a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
     .form-box .login-register{
         text-align: center;
         margin-top: 20px;
