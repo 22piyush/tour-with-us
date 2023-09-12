@@ -59,5 +59,34 @@
             </div>
         </div>
         </section>
+        <div class="sidebar sidebar-closed" id="sidebar">
+
+            <a class="menu" href="./index.html">Tours</a>
+            <a class="menu" href="./pages/aboutus.html">About</a>
+            <a class="menu" href="./pages/contactus.html">Contact</a>
+            <a  class="menu" href="./pages/login.html">Sign In</a>
+   
+        </div>
+        
+            <script>
+                
+                let isOpen = false;
+               function togglesidebae()
+               {
+                const sidebar = document.getElementById('sidebar');
+                if(isOpen)
+                {
+                    sidebar.classList.add('sidebar-closed');
+                    isOpen = false;
+                }
+                else
+                {
+                    sidebar.classList.remove('sidebar-closed');
+                    isOpen = true;
+                }
+             }
+               
+    
+            </script>  
 </body>
 </html>
