@@ -6,13 +6,14 @@
         </title>
         <link rel="stylesheet" href="index.css">
 
+
         <style type="text/css">
        
             .sidebar
             {
                 height: 100vh;
-                background-color: #33334d;
-                width: 200px;
+                background-color: #020210;
+                width: 150px;
                 position:fixed;
                 top: 0;
                 padding-top: 75px;
@@ -20,30 +21,34 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                background-image: url(./images/bbbbb.jpg);
-                opacity: 0.3;
-                background:#060d13;
+               gap: 15px;
+                
+                opacity: 0.7;
+                background-position: center;
+    background-size: cover;
+                color: #ffffff;
                   
             }
             .menu
             {
-                width: 100px;
+              
                 text-align: center;
-                margin-top: 30px;
+               
                 padding: 5px;
-                margin-left: 45px;                
+                         
                 font-size: 20px;
                 background: none;
                 color:#ffffff;
-               
+               text-decoration: none;
             }
             
             .sidebar-closed
             {
-                left: -200px;
+               display: none;
             }
         </style>
         
+
 </head>
 <body>
     <div>
@@ -95,10 +100,16 @@
     <div>
         
         <div class="sidebar sidebar-closed" id="sidebar">
-            <button class="menu"><b>home</b></button>
-            <button class="menu"><b>about</b></button>
-            <button class="menu"><b>contact</b></button>
-            <button class="menu"><b>logout</b></button>
+
+            <a class="menu" href="./index.html">Home</a>
+            <a class="menu" href="./pages/aboutus.html">About</a>
+            <a class="menu" href="./pages/contactus.html">Contact</a>
+            <a  class="menu" href="./pages/login.html">Logout</a>
+
+          
+
+          
+            
         </div>
         
             <script>
