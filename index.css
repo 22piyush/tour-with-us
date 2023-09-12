@@ -19,6 +19,100 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 10px;
+
+  
+}
+.navbar{
+    /* height: 12%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px 10px;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+   
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+  
+    z-index: 100;
+    
+}
+.menu-icon:hover{
+    box-shadow: 0 0 10px 8px rgb(98, 96, 96);
+    border-radius: 50%;
+    
+}
+
+.row{
+    display: flex;
+  
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    margin-left: 100px;
+    
+}
+.bol{
+    flex-basis: 50%;
+}
+h1{
+    color: wheat;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+.card1{
+    background-image: url(./images/indian-temple.jpg);
+    text-decoration: none;
+}
+.card2{
+    background-image: url(./images/history.jpg);
+}
+.card3{
+    background-image: url(./images/hilllls\ -\ Copy.jpg);
+}
+.card4{
+    background-image: url(./images/wild-life-card.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+
+
 }
 .logo {
   width: 50px;
@@ -162,3 +256,64 @@ h2 {
    margin-top: 50px;
   }
 }
+
+body{
+    background-color: aquamarine;
+}
+h2{
+     margin-left:300px;
+     padding-top: 50px;
+     display: inline-block;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.explore-button{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+
+.sidebar
+ {
+   height: 100vh;        
+    width: 200px;
+   position:fixed;
+    top: 0;
+    padding-top: 75px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(96, 108, 115);  
+                  
+  }
+  
+.menu
+{
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    margin-left: 45px;                
+    font-size: 20px;
+    background: none;
+    color:#ffffff;
+                   
+               
+ }
+.menu:hover
+{   
+    display: inline;
+    padding: 10px;
+    color: #999;
+    background: #999;
+    transition: 0.5sec;
+    box-shadow: 0 0 12px 6px rgb(42, 61, 72);
+    color: white;
+
+}
+            
+ .sidebar-closed
+{
+    left: -200px;
+}
+

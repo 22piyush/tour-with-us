@@ -74,16 +74,18 @@ img{
     color: #00bcd4;
 }
 .contactForm{
-    width: 40%;
+    width: 30%;
     padding: 40px;
     background: #fff;
+    margin-right: -700px;
+    margin-top:-300px ;
 
 }
-.contactForm h2{
-    font-size: 30px;
-    color: #333;
-    font-weight: 500;
+.int{
+    margin-top: 50px;
+    width:50%;
+    height: 100%;
 }
-.contactForm .inputBox{
-    position: relative;
-}
+
+
+
