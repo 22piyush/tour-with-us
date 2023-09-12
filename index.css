@@ -140,7 +140,7 @@ h5{
     box-shadow: 5px black;
     float: left;
     margin-right: 20px;
-
+}
 
 /* media query large size */
 @media only screen and (max-width: px) {
