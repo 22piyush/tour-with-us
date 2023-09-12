@@ -220,3 +220,10 @@ h2{
 {
     left: -200px;
 }
+@media (max-width : 991px)
+{
+  .col{
+    margin-top: 300px;
+    margin-left: -1px;
+  }
+}
