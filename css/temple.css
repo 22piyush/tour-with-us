@@ -95,6 +95,8 @@
     bottom: 180px;
     padding-left: 100px;
     padding-right: 100px;
+    color: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .carousel-caption h5{
     margin-top:50px ;
