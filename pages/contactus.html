@@ -16,7 +16,7 @@
     position:fixed;
     top: 0;
     padding-top: 75px;
-    right: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,11 +33,23 @@
     text-align: center;
     margin-top: 30px;
     padding: 5px;
-    margin-left: 45px;                
+    margin-left: 10px;                
     font-size: 20px;
     background: none;
     color:#ffffff;
-    
+    text-align: center;          
+    text-decoration: none;
+}
+.menu:hover
+{   
+    display: inline;
+    padding: 10px;
+    color: #999;
+    background: #999;
+    transition: 0.5sec;
+    box-shadow: 0 0 12px 6px rgb(42, 61, 72);
+    color: white;
+
 }
 .sidebar-closed
 {
@@ -94,7 +106,7 @@
                      <input type="text" placeholder="full name" class="int">
                      <input type="text" placeholder="email" required="" class="int">
                      <input type="text" placeholder="write any messge...." required="" class="int"><br>
-                     <input type="button"  value="Send" class="button-send">
+                     <input type="button"  value="Send" class="button-send" onclick="sendbtn">
                 </div>
             </div>
         </div>
@@ -124,9 +136,11 @@
                     sidebar.classList.remove('sidebar-closed');
                     isOpen = true;
                 }
+             } 
+             function sendbtn()
+             {
+               alert("Mesage Send Successfully" )
              }
-               
-    
             </script>  
 </body>
 </html>
