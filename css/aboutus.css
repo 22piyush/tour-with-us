@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    background-color:thistle;
+}
 .header{
     background-color:#2d2f33;
     opacity: 1;
@@ -233,7 +236,7 @@
 }
 
 .teamContainer {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -246,8 +249,11 @@
     justify-content: center;
     align-items: center;
     margin: 0.5rem;
-}
 
+}
+.about-img{
+    border-radius: 50%;
+}
 .team-item h5 {
     margin-top: 1rem;
     font-size:14px;
@@ -324,25 +330,29 @@ footer {
     }
 }
 .footer{
-    background-color: #24262b;
-    padding: 70px 0;
+    background-color: #2d2f33;
+    padding-top: 50px;
+    height: 250px;
 }
-.footer-col{  
-    width: 25%;
-    padding: 0 15px;
+.row{
+    margin-left:150px;
     display: flex;
-    flex-direction: row;
 }
-.footer-col h4{
-    display: flex;
-    font-size: 18px;
-    color:#ffffff;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight:600;
+.footer-img{
+    margin-left: 10px;
+}
+.footer-name-color{
+    color: white;
     position: relative;
+    text-align: left;
+   
 }
-.footer-col h4::before{
+.footer-name-color1{
+    color:#bbbbbb;
+    text-decoration: none;
+    line-height:28px;
+}
+.footer-name-color::before{
     content: '';
     position: absolute;
     left: 0;
@@ -351,21 +361,5 @@ footer {
     height:2px;
     box-sizing: border-box;
     width:50px;
-}
-.footer-col ul li :not(:last-child){
-    margin-bottom: 10px;
-}
-.footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color:#ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    color:#bbbbbb;
-    display: block;
-    transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 8px;
+    line-height:80px;
 }
