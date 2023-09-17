@@ -55,12 +55,32 @@
             <input type="radio" name="travel"/><p>Train</p>
             <input type="radio" name="travel"/><p>Bus</p>
         </div>
-
+        
+        <p class="java">Number Of Tickets You Want To Book  :</p>
+        <div class="java-div">
+        <button class="java-btn" onclick="increase()">Add Ticket</button>
+        <h3 id="quantity" class="java-btn zero">0</h3>
+        <button  class="java-btn" onclick="decrease()">Remove Ticket</button>
+        
+        </div>
        <a href="../index.html"> <input type="submit" onclick="alert('Your Ticket Book successfully')"class="submit-btn" ></a>
     </div>
     <div>
     </div>
+    <script>
+        function increase()
+        {
+            const quantityElement = document.getElementById('quantity');
 
+            quantityElement.innerText = parseInt(quantityElement.innerText)+1;
+        }
+        function decrease()
+        {
+            const quantityElement = document.getElementById('quantity');
+
+            quantityElement.innerText = parseInt(quantityElement.innerText)-1;
+        }
+    </script>
 </body>
 
 </html>
