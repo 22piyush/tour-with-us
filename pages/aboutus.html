@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body class="body-light" id="body">
     <header class="header">
         <nav class="navbar">
             <a href="../index.html">Home</a>
@@ -23,9 +23,18 @@
         <form action="#" class="search-bar">
             <input type="text" placeholder="Search...">
             <buttom type="submit"><i class='bx bx-search'></i>
-               
-            </buttom>
-        </form>
+            </form>
+                <body class="body-light" id="body"> 
+           
+                <button  class="button " onclick="lighttheme()" class="dark-btn">
+             <img src="../images/light-btn.png"width=20px/>
+                </button>
+                </br>
+                <button  class="button " onclick="darktheme()">
+                    <img src="../images/dark-btn.png"width=20px/>
+                    </button>
+
+       
     </header>
     <section id="home">
         <div class="home-left">
@@ -150,7 +159,22 @@
                     </div>
         </div>
       </footer>
+    
 
+      <script>
+        function darktheme()
+        {
+            const bodyElement=document.getElementById('body');
+            bodyElement.classList.remove('body-light');
+            bodyElement.classList.add('body-dark');
+        }
+        function lighttheme()
+        {
+            const bodyElement=document.getElementById('body');
+            bodyElement.classList.add('body-light');
+            bodyElement.classList.remove('body-dark');
+        }
+    </script>
 </body>
 <script></script>
 </html>
