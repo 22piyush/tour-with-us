@@ -8,6 +8,26 @@
 body{
     background-color:thistle;
 }
+.body-light{
+    color: black;
+    background-color: aliceblue;
+}
+.body-dark{
+    color: beige;
+    background-color: black;
+}
+.button{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 90px;
+    margin-left:100px;
+    border-radius: 2px  black solid ;
+    padding:5px ;
+    display: flex;
+    margin-top: -8px;
+    
+}
 .header{
     background-color:#2d2f33;
     opacity: 1;
